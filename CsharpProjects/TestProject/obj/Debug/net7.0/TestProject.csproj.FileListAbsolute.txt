@@ -1,0 +1,14 @@
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/bin/Debug/net7.0/TestProject
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/bin/Debug/net7.0/TestProject.deps.json
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/bin/Debug/net7.0/TestProject.runtimeconfig.json
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/bin/Debug/net7.0/TestProject.dll
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/bin/Debug/net7.0/TestProject.pdb
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.AssemblyInfoInputs.cache
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.AssemblyInfo.cs
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.dll
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/refint/TestProject.dll
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.pdb
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/TestProject.genruntimeconfig.cache
+/Users/yasmineelnadi/Desktop/learningC#/CsharpProjects/TestProject/obj/Debug/net7.0/ref/TestProject.dll
