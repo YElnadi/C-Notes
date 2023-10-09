@@ -25,14 +25,29 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 //     Console.WriteLine(name);
 // }
 
-int[] inventory = {200, 450, 700, 175, 250};
-int sum = 0;
-int bin = 0;
-foreach(int items in inventory){
-    bin++;
-    sum += items;
-    Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+// int[] inventory = {200, 450, 700, 175, 250};
+// int sum = 0;
+// int bin = 0;
+// foreach(int items in inventory){
+//     bin++;
+//     sum += items;
+//     Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
 
+// }
+
+// Console.WriteLine($"We have {sum} items in inventory.");
+
+
+
+
+
+//#################################//
+//Exercise - Complete a challenge activity for nested iteration and selection statements
+
+string[] fraudulentOrderIDs = { "B123", "C234"," A345"," C15", "B177", "G3003", "C235", "B179"};
+
+foreach(string order in fraudulentOrderIDs){
+    if(order.StartsWith("B")){
+        Console.WriteLine(order);
+    }
 }
-
-Console.WriteLine($"We have {sum} items in inventory.");
