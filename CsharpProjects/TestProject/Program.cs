@@ -81,6 +81,70 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 
 /////////##################///////
 ///Code challenge: write code to display the result of a coin flip/////
-Random coin = new Random();
-// int flip = coin.Next(0, 2);
-Console.WriteLine((coin.Next(0, 2) == 0)? "Heads":"Tails");
+// Random coin = new Random();
+// // int flip = coin.Next(0, 2);
+// Console.WriteLine((coin.Next(0, 2) == 0)? "Heads":"Tails");
+
+
+
+/////////////#########################////////////////
+///Exercise - Complete a challenge activity using Boolean expressions/////
+
+
+
+// string permission = "Admin|Manager";
+// int level = 55;
+
+// if (permission.Contains("Admin"))
+// {
+//     if (level > 55)
+//     {
+//         Console.WriteLine("Welcome, Super Admin User.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Welcome, Admin User");
+//     }
+// }
+// else if (permission.Contains("Manager"))
+// {
+//     if (level >= 20)
+//     {
+//         Console.WriteLine("Contact an Admin for access.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("You do not have sufficient privileges.");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("You do not have sufficient privileges.");
+// }
+
+
+
+
+
+
+
+///########################////
+// bool flag = true;
+// int value = 0;
+
+// if (flag)
+// {
+//     value = 10;
+//     Console.WriteLine("Inside of code block: " + value);
+// }
+// Console.WriteLine("Outside of code block: " + value);
+
+
+int x = 5;
+if (x > 0)
+{
+    int y = 6;
+    x = x + y;
+
+}
+Console.WriteLine("first integer: "+ x); //11
