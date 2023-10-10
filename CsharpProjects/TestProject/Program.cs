@@ -68,6 +68,14 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 ////############################////
 //Use boolen method that returens  a Boolen
 
-string pangram = "The quick brown fox jumps over the lazy dog.";
-Console.WriteLine(pangram.Contains("fox"));
-Console.WriteLine(pangram.Contains("cow"));
+// string pangram = "The quick brown fox jumps over the lazy dog.";
+// Console.WriteLine(pangram.Contains("fox"));
+// Console.WriteLine(pangram.Contains("cow"));
+
+///##################///
+/////Exercise - Implement the conditional operator////
+int saleAmount = 1001;
+// int discount = saleAmount > 1000? 100: 50;
+
+Console.WriteLine($"Discount: {(saleAmount > 1000? 100: 50)}");
+
