@@ -44,10 +44,30 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 //#################################//
 //Exercise - Complete a challenge activity for nested iteration and selection statements
 
-string[] fraudulentOrderIDs = { "B123", "C234"," A345"," C15", "B177", "G3003", "C235", "B179"};
+// string[] fraudulentOrderIDs = { "B123", "C234"," A345"," C15", "B177", "G3003", "C235", "B179"};
 
-foreach(string order in fraudulentOrderIDs){
-    if(order.StartsWith("B")){
-        Console.WriteLine(order);
-    }
-}
+// foreach(string order in fraudulentOrderIDs){
+//     if(order.StartsWith("B")){
+//         Console.WriteLine(order);
+//     }
+// }
+
+
+//###########################//
+//Exercise - Create effective code comments
+
+// string firstName = "Bob";
+// int widgetsPurchased = 7;
+
+// // Testing a change to the message.
+// // int widgetsSold = 7;
+// // Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
+// Console.WriteLine($"{firstName} purchased {widgetsPurchased} widgets.");
+
+
+////############################////
+//Use boolen method that returens  a Boolen
+
+string pangram = "The quick brown fox jumps over the lazy dog.";
+Console.WriteLine(pangram.Contains("fox"));
+Console.WriteLine(pangram.Contains("cow"));
