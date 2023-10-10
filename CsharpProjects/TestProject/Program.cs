@@ -74,8 +74,13 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 
 ///##################///
 /////Exercise - Implement the conditional operator////
-int saleAmount = 1001;
-// int discount = saleAmount > 1000? 100: 50;
+// int saleAmount = 1001;
+// // int discount = saleAmount > 1000? 100: 50;
 
-Console.WriteLine($"Discount: {(saleAmount > 1000? 100: 50)}");
+// Console.WriteLine($"Discount: {(saleAmount > 1000? 100: 50)}");
 
+/////////##################///////
+///Code challenge: write code to display the result of a coin flip/////
+Random coin = new Random();
+// int flip = coin.Next(0, 2);
+Console.WriteLine((coin.Next(0, 2) == 0)? "Heads":"Tails");
