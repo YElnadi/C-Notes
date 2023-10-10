@@ -150,24 +150,54 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 // Console.WriteLine("first integer: "+ x); //11
 
 
-int[] numbers = { 4, 8, 15, 16, 23, 42 };
-int total = 0;
-bool found = false;
+// int[] numbers = { 4, 8, 15, 16, 23, 42 };
+// int total = 0;
+// bool found = false;
 
-foreach (int number in numbers)
+// foreach (int number in numbers)
+// {
+
+//     total += number;
+
+//     if (number == 42)
+//         found = true;
+
+// }
+
+// if (found)
+// {
+//     Console.WriteLine("Set contains 42");
+
+// }
+
+// Console.WriteLine($"Total: {total}");
+
+
+
+// int x = 5;
+// if(x>0){
+//     int y = 6;
+// }
+//     x=x+y;
+
+
+
+/////////////#######################/////////
+/// Code challenge - implement the FizzBuzz challenge rules
+
+
+for (int i = 1; i < 101; i++)
 {
+    if ((i % 3 == 0) && (i % 5 == 0))
+        Console.WriteLine($"{i} FizzBuzz");
+    else if (i % 3 == 0)
+        Console.WriteLine($"{i} Fizz");
 
-    total += number;
+    else if (i % 5 == 0)
+        Console.WriteLine($"{i} Buzz");
 
-    if (number == 42)
-        found = true;
+    else
+        Console.WriteLine($"{i}");
+
 
 }
-
-if (found)
-{
-    Console.WriteLine("Set contains 42");
-
-}
-
-Console.WriteLine($"Total: {total}");
