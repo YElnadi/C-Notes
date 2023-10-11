@@ -207,21 +207,60 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 ///////###################################/////
 ///Exercise - Complete a challenge activity using do and while iteration statements///
 ///
-int hero = 10;
-int monster = 10;
-Random random = new Random();
-do {
-    int attack = random.Next(1, 11);
-    monster -= attack;
-    Console.WriteLine($"Monster was damaged and lost {attack} health and now has {monster} health.");
+// int hero = 10;
+// int monster = 10;
+// Random random = new Random();
+// do {
+//     int attack = random.Next(1, 11);
+//     monster -= attack;
+//     Console.WriteLine($"Monster was damaged and lost {attack} health and now has {monster} health.");
 
-    if (monster <= 0) continue;
+//     if (monster <= 0) continue;
 
-    attack = random.Next(1, 11);
-    hero -= attack;
-    Console.WriteLine($"Hero was damaged and lost {attack} health and now has {hero} health.");
+//     attack = random.Next(1, 11);
+//     hero -= attack;
+//     Console.WriteLine($"Hero was damaged and lost {attack} health and now has {hero} health.");
 
 
-}
-while(hero > 0 && monster>0);
-Console.WriteLine(hero > monster ? "Hero Wins!" : "Monster Wins!");
+// }
+// while(hero > 0 && monster>0);
+// Console.WriteLine(hero > monster ? "Hero Wins!" : "Monster Wins!");
+
+
+////////////////Manage user input during this challenge////
+// string? readResult;
+// Console.WriteLine("Enter a string:");
+// do{
+//     readResult = Console.ReadLine();
+// }while (readResult == null);
+
+
+
+// string? readResult;
+// bool validEntry = false;
+
+// Console.WriteLine("Enter a string containing at least three characters:");
+
+// do{
+//     readResult = Console.ReadLine();
+//     if (readResult != null){
+//         if (readResult.Length >= 3){
+//             validEntry = true;
+//         }
+//         else{
+//             Console.WriteLine("Your input is invalid, please try again.");
+//         }
+//     }
+// } while(validEntry == false);
+
+
+
+int numericValue = 0;
+bool validNumber = false;
+string? readResult;
+Console.WriteLine("Enter a string containing at least three characters:");
+readResult = Console.ReadLine();
+
+validNumber = int.TryParse(readResult, out numericValue);
+Console.WriteLine($" number is : {numericValue}");
+
