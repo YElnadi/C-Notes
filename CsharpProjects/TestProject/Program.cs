@@ -186,18 +186,42 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 /// Code challenge - implement the FizzBuzz challenge rules
 
 
-for (int i = 1; i < 101; i++)
-{
-    if ((i % 3 == 0) && (i % 5 == 0))
-        Console.WriteLine($"{i} FizzBuzz");
-    else if (i % 3 == 0)
-        Console.WriteLine($"{i} Fizz");
+// for (int i = 1; i < 101; i++)
+// {
+//     if ((i % 3 == 0) && (i % 5 == 0))
+//         Console.WriteLine($"{i} FizzBuzz");
+//     else if (i % 3 == 0)
+//         Console.WriteLine($"{i} Fizz");
 
-    else if (i % 5 == 0)
-        Console.WriteLine($"{i} Buzz");
+//     else if (i % 5 == 0)
+//         Console.WriteLine($"{i} Buzz");
 
-    else
-        Console.WriteLine($"{i}");
+//     else
+//         Console.WriteLine($"{i}");
+
+
+// }
+
+
+
+///////###################################/////
+///Exercise - Complete a challenge activity using do and while iteration statements///
+///
+int hero = 10;
+int monster = 10;
+Random random = new Random();
+do {
+    int attack = random.Next(1, 11);
+    monster -= attack;
+    Console.WriteLine($"Monster was damaged and lost {attack} health and now has {monster} health.");
+
+    if (monster <= 0) continue;
+
+    attack = random.Next(1, 11);
+    hero -= attack;
+    Console.WriteLine($"Hero was damaged and lost {attack} health and now has {hero} health.");
 
 
 }
+while(hero > 0 && monster>0);
+Console.WriteLine(hero > monster ? "Hero Wins!" : "Monster Wins!");
